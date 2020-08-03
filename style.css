@@ -1,132 +1,71 @@
 body {
-  box-sizing: border-box;
-  background-color: #ccc;
-  color: #222;
-  margin: 0;
-  padding: 0;
-}
-
-footer {
+  color: #333;
   text-align: center;
-  padding: 50px;
-  margin: auto;
-}
-
-h2 {
-  margin: 0 auto 30px;
-}
-
-header {
-  margin-top: 10px;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
 }
 
 hr {
-  max-width: 5%;
-  border: 1px solid #bbb;
+  max-width: 5%;}
+
+footer {
+  padding-bottom: 20px;
 }
 
-a {
-  color: #111;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* ids */
 #title {
-  margin: 0;
-  padding-top: 15px;
   text-transform: uppercase;
-  font-size: 2rem;
-}
-
-#main {
-  text-align: center;
-  margin: auto;
-}
-
-#img-div {
-  max-width: 100%;
-  margin: auto;
-  padding: 0;
+  padding-top: 20px;
 }
 
 #image {
-  margin-top: 15px;
-  border-radius: 5px;
-  max-width: 70%;
-  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
   display: block;
   margin: auto;
-}
-
-#image:hover {
-  opacity: 0.95;
+  max-width: 60%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
 #img-caption {
-  margin-top: 13px;
-  margin-bottom: 0;
-  font-size: 0.9rem;
+  padding-top: 10px;
+}
+
+#tribute-info {
+  text-align: left;
+}
+
+#tribute-info header {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
 }
 
 #tribute-info li {
-  text-align: left;
-  width: 50%;
-  line-height: 2;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  list-style: none;
+  margin-left: -40px;
 }
 
-/* classes */
+.works-title {
+  text-align: center;
+}
+
+.mid {
+  max-width: 60%;
+  margin: auto;
+}
+
 .top,
 .mid,
 .bottom {
   padding: 30px;
-  margin: auto;
-  width: 80%;
-  text-align: center;
-  display: inline-block;
 }
 
 @media only screen and (max-width: 768px) {
-
   .top,
   .mid,
   .bottom {
-    padding: 0;
-    margin: 0;
-  }
-
-  #title,
-  .works-title {
-    font-size: 1.5rem;
+    max-width: 100%;
+    padding: 5px;
   }
 
   #image {
-    max-width: 100%;
-  }
-
-  #tribute-info li {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  #tribute-info ul {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    max-width: 90%;
   }
 }
