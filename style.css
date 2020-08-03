@@ -2,12 +2,14 @@ body {
   box-sizing: border-box;
   background-color: #ccc;
   color: #222;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
   text-align: center;
   padding: 50px;
-  margin: 0;
+  margin: auto;
 }
 
 h2 {
@@ -41,7 +43,6 @@ a:hover {
 }
 
 /* ids */
-
 #title {
   margin: 0;
   padding-top: 15px;
@@ -100,21 +101,22 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+
   .top,
   .mid,
   .bottom {
     padding: 0;
-    margin:0;
+    margin: 0;
   }
 
-#title,
+  #title,
   .works-title {
     font-size: 1.5rem;
   }
 
-#image {
-  max-width: 100%;
-}
+  #image {
+    max-width: 100%;
+  }
 
   #tribute-info li {
     width: 100%;
@@ -127,5 +129,4 @@ a:hover {
     padding: 0;
     width: 100%;
   }
-
 }
