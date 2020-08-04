@@ -18,7 +18,7 @@ footer {
 #image {
   display: block;
   margin: auto;
-  max-width: 60%;
+  max-width: 55%;
   border-radius: 5px;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
