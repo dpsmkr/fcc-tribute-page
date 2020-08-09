@@ -4,7 +4,8 @@ body {
 }
 
 hr {
-  max-width: 5%;}
+  max-width: 5%;
+}
 
 footer {
   padding-bottom: 20px;
@@ -20,7 +21,7 @@ footer {
   margin: auto;
   max-width: 55%;
   border-radius: 5px;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 #img-caption {
